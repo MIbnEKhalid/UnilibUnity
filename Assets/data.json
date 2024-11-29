@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Example Title 1",
+        "imagePath": "https://unilib.mbktechstudio.com/Assets/Images/BookCovers/UsingInformationTechnology.png",  
+        "url": "https://drive.google.com/file/d/15-2kf11bDvZDgIDmCNpvbJ6SzIQMTg2h/view?usp=sharing"
+    },
+    {
+        "title": "Example Title 2",
+        "imagePath": "https://unilib.mbktechstudio.com/Assets/Images/BookCovers/A-ZOHS.png",
+        "url": "https://drive.google.com/file/d/15-2kf11bDvZDgIDmCNpvbJ6SzIQMTg2h/view?usp=sharing"
+    }
+]
