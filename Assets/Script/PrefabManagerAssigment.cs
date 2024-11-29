@@ -2,6 +2,7 @@ using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PrefabManagerAssigment : MonoBehaviour
@@ -19,11 +20,22 @@ public class PrefabManagerAssigment : MonoBehaviour
     public Transform parentContainer;   // Parent transform for instantiated prefabs
     public string jsonFileName = "assigment.json"; // Name of the JSON file in Assets folder
     private void Start()
-    {
+    { 
         LoadDataFromJson();
     }
 
-    private void LoadDataFromJson()
+    public void RefreshAssigments()
+    {
+        // Clear all child objects of parentContainer
+        foreach (Transform child in parentContainer)
+        {
+            Destroy(child.gameObject);
+        }
+        LoadDataFromJson();
+
+    }
+
+    public void LoadDataFromJson()
     {
         // Load JSON file from Resources folder
         string filePath = Path.Combine(Application.dataPath, jsonFileName);
