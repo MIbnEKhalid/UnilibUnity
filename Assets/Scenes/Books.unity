@@ -567,7 +567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4995de82ef2c2424aa7fbb12e7e823bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabTemplate: {fileID: 8745204531487780324, guid: 40736da30a0234f4cbb7821f71f74e89, type: 3}
+  prefabTemplate: {fileID: 1628150175428160741, guid: bfedfccfd822f8245a9b253bace8ffa0, type: 3}
   parentContainer: {fileID: 1970884353}
   jsonFileName: data.json
 --- !u!1 &2057495661
