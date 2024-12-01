@@ -7,9 +7,9 @@ public class PrefabManager : MonoBehaviour
     [System.Serializable]
     public class PrefabData
     {
-        public string title;     // Title of the item
-        public string imagePath; // Online URL for the image
-        public string url;       // URL to open when button is clicked
+        public string name;     // Title of the item
+        public string imageURL; // Online URL for the image
+        public string link;       // URL to open when button is clicked
     }
 
     public GameObject prefabTemplate;   // Prefab template
@@ -57,8 +57,8 @@ public class PrefabManager : MonoBehaviour
             // Initialize the prefab with data
             if (newPrefab.TryGetComponent(out PrefabController controller))
             {
-                // Initialize PrefabController with title, image path, and URL
-                controller.Initialize(data.title, data.imagePath, data.url);
+                // Initialize PrefabController with name, imageURL path, and link
+                controller.Initialize(data.name, data.imageURL, data.link);
             }
             else
             {
