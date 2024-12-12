@@ -15,15 +15,16 @@ The Json Data Is being Fetch from repo branch [Unilib.MIbnEKhalid.github.io/tree
         com.unity.nuget.newtonsoft-json
         ```
 3. Install the Package:
-   - Click Add. Unity will download and install the official Newtonsoft.Json package.
-
-
+   - Click Add. Unity will download and install the official Newtonsoft.Json package. 
+  
 
 
 ## License
 
-This Project Is Licensed Under The `MIT` - See The [LICENSE](LICENSE) File For Details.
+This project is licensed under the WTFPL - see the [LICENSE](LICENSE) file for details.
 
+**NOTE:** Only The Source Code Of This Website Is Covered Under The [WTFP LICENSE](https://choosealicense.com/licenses/wtfpl/). The Project Documentation, Some Images, Blog Posts, And Other Content Are NOT Covered Under This License And Remain The Intellectual Property Of The Author.
+ 
 ## Contact
 
 For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/Support](https://mbktechstudio.com/Support/?Project=UnilibUnity), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com).

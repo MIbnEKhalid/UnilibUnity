@@ -58,7 +58,7 @@ public class PrefabManager : MonoBehaviour
             if (newPrefab.TryGetComponent(out PrefabController controller))
             {
                 // Initialize PrefabController with name, imageURL path, and link
-                controller.Initialize(data.name, data.imageURL, data.link);
+                controller.Initialize(data.name, data.imageURL, "https://unilib.mbktechstudio.com/Assets/Images/BookCovers/"+data.link);
             }
             else
             {
